@@ -1,3 +1,1 @@
-To build for ESP8266, ensure that you clean with ESP-IDF's idf.py clean (if you have both installed it is nicer in my opinion) and then simply use make in the root.
-
-To build for ESP-IDF, ensure that you idf.py clean and then you may idf.py build.
+To build for ESP8266 or ESP, go to the corresponding folder src and run either 'make flash' or 'idf.py build' (respectively) in that folder. Do not run these commands in the 'main' of either of these folders. It will error.
