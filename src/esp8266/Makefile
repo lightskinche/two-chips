@@ -5,5 +5,5 @@
 
 PROJECT_NAME := two-chips
 
-include $(IDF_PATH)/make/project.mk
+include $(IDF_PATH_ARC)/make/project.mk
 
